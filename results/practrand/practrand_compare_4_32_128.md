@@ -1,0 +1,18 @@
+﻿# PractRand Summary (4GB / 32GB / 128GB)
+
+| Algorithm | 4GB | 32GB | 128GB | Fail(4/32/128) | Unusual(4/32/128) |
+|---|---|---|---|---:|---:|
+| v1 | PASS / 4 gigabytes | PASS / 32 gigabytes | FAIL / 64 gigabytes | 0/0/6 | 0/1/2 |
+| v2 | PASS / 4 gigabytes | PASS / 32 gigabytes | FAIL / 64 gigabytes | 0/0/6 | 0/1/2 |
+| v3 | PASS / 4 gigabytes | PASS / 32 gigabytes | FAIL / 64 gigabytes | 0/0/6 | 0/1/2 |
+| v4 | PASS / 4 gigabytes | PASS / 32 gigabytes | FAIL / 64 gigabytes | 0/0/6 | 0/1/2 |
+| v5 | PASS / 4 gigabytes | PASS / 32 gigabytes | FAIL / 64 gigabytes | 0/0/6 | 0/1/2 |
+| mt19937_64 | PASS / 4 gigabytes | PASS / 32 gigabytes | PASS / 128 gigabytes | 0/0/0 | 1/1/1 |
+| xoshiro256pp | PASS / 4 gigabytes | PASS / 32 gigabytes | PASS / 128 gigabytes | 0/0/0 | 0/0/1 |
+| splitmix64 | PASS / 4 gigabytes | PASS / 32 gigabytes | PASS / 128 gigabytes | 0/0/0 | 0/0/0 |
+| sprng_lcg64 | FAIL / 1 gigabyte | FAIL / 1 gigabyte | FAIL / 1 gigabyte | 313/313/313 | 1/1/1 |
+| mkl_mcg59_like | FAIL / 1 gigabyte | FAIL / 1 gigabyte | FAIL / 1 gigabyte | 361/361/361 | 0/0/0 |
+| mrg32k3a | PASS / 4 gigabytes | PASS / 32 gigabytes | FAIL / 64 gigabytes | 0/0/1 | 1/1/1 |
+| lehmer127_mersenne | PASS / 4 gigabytes | PASS / 32 gigabytes | PASS / 128 gigabytes | 0/0/0 | 0/0/0 |
+
+*Note: in current PractRand streamer, v1-v5 are aliases of the same PARMONC core stream.*

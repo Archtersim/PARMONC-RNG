@@ -1,0 +1,122 @@
+[
+  {
+    "gen": "v1",
+    "small": "all_passed",
+    "small_cpu": "00:00:03.00",
+    "small_out": [],
+    "crush": "all_passed",
+    "crush_cpu": "00:14:30.31",
+    "crush_out": [],
+    "big": "all_passed",
+    "big_cpu": "01:21:13.65",
+    "big_out": []
+  },
+  {
+    "gen": "v2",
+    "small": "??? ???????",
+    "small_cpu": "",
+    "small_out": [],
+    "crush": "all_passed",
+    "crush_cpu": "00:15:23.29",
+    "crush_out": [],
+    "big": "all_passed",
+    "big_cpu": "01:33:06.26",
+    "big_out": []
+  },
+  {
+    "gen": "v3",
+    "small": "??? ???????",
+    "small_cpu": "",
+    "small_out": [],
+    "crush": "all_passed",
+    "crush_cpu": "00:14:33.01",
+    "crush_out": [],
+    "big": "all_passed",
+    "big_cpu": "01:33:09.40",
+    "big_out": []
+  },
+  {
+    "gen": "v4",
+    "small": "??? ???????",
+    "small_cpu": "",
+    "small_out": [],
+    "crush": "all_passed",
+    "crush_cpu": "00:12:58.15",
+    "crush_out": [],
+    "big": "all_passed",
+    "big_cpu": "01:40:22.68",
+    "big_out": []
+  },
+  {
+    "gen": "v5",
+    "small": "??? ???????",
+    "small_cpu": "",
+    "small_out": [],
+    "crush": "all_passed",
+    "crush_cpu": "00:13:09.28",
+    "crush_out": [],
+    "big": "all_passed",
+    "big_cpu": "01:32:53.15",
+    "big_out": []
+  },
+  {
+    "gen": "parmonc_lcg",
+    "small": "??? ???????",
+    "small_cpu": "",
+    "small_out": [],
+    "crush": "all_passed",
+    "crush_cpu": "00:11:54.70",
+    "crush_out": [],
+    "big": "all_passed",
+    "big_cpu": "01:21:36.64",
+    "big_out": []
+  },
+  {
+    "gen": "mt19937_64",
+    "small": "all_passed",
+    "small_cpu": "00:00:03.10",
+    "small_out": [],
+    "crush": "outliers",
+    "crush_cpu": "00:11:47.10",
+    "crush_out": [],
+    "big": "outliers",
+    "big_cpu": "01:18:35.21",
+    "big_out": []
+  },
+  {
+    "gen": "xoshiro256pp",
+    "small": "all_passed",
+    "small_cpu": "00:00:02.84",
+    "small_out": [],
+    "crush": "all_passed",
+    "crush_cpu": "00:11:23.46",
+    "crush_out": [],
+    "big": "all_passed",
+    "big_cpu": "01:30:01.20",
+    "big_out": []
+  },
+  {
+    "gen": "splitmix64",
+    "small": "all_passed",
+    "small_cpu": "00:00:02.79",
+    "small_out": [],
+    "crush": "all_passed",
+    "crush_cpu": "00:11:31.70",
+    "crush_out": [],
+    "big": "outliers",
+    "big_cpu": "01:39:24.09",
+    "big_out": []
+  },
+  {
+    "gen": "pcg64",
+    "small": "all_passed",
+    "small_cpu": "00:00:03.00",
+    "small_out": [],
+    "crush": "all_passed",
+    "crush_cpu": "00:13:38.01",
+    "crush_out": [],
+    "big": "outliers",
+    "big_cpu": "01:51:13.14",
+    "big_out": []
+  }
+]

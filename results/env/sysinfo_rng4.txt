@@ -1,0 +1,10 @@
+﻿===== bench_rng4: system info =====
+Run date:               2026-06-19T22:53:16
+Computer:               ALEX
+OS:                     Windows_NT
+PROCESSOR_IDENTIFIER:   Intel64 Family 6 Model 198 Stepping 2, GenuineIntel
+NUMBER_OF_PROCESSORS:   20
+g++:                    C:\msys64\ucrt64\bin\g++.exe
+
+[v4] CPUID: SSE4.2=1 AVX=1 AVX2=1 FMA=1 BMI2=1 AES=1 SHA=1  -> AVX2 path
+

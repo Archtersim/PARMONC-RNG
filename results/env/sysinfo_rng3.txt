@@ -1,0 +1,13 @@
+﻿===== bench_rng3: system info =====
+Run date:               2026-06-19T22:52:48
+Computer:               ALEX
+OS:                     Windows_NT
+PROCESSOR_IDENTIFIER:   Intel64 Family 6 Model 198 Stepping 2, GenuineIntel
+NUMBER_OF_PROCESSORS:   20
+g++ path:               C:\msys64\ucrt64\bin\g++.exe
+
+--- CPU ---
+MaxClockSpeed=3900
+Name=Intel(R) Core(TM) Ultra 7 265K
+NumberOfCores=20
+NumberOfLogicalProcessors=20

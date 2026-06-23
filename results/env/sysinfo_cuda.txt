@@ -1,0 +1,13 @@
+﻿===== bench_cuda: system info =====
+Run date:               2026-05-06T23:08:28
+Computer:               ALEX
+OS:                     Windows_NT
+PROCESSOR_IDENTIFIER:   Intel64 Family 6 Model 198 Stepping 2, GenuineIntel
+NUMBER_OF_PROCESSORS:   20
+nvcc:                   C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\bin\nvcc.exe
+
+[v5] GPU: NVIDIA GeForce RTX 3090  SM 8.6  SMs=82  totalMem=24.0 GB
+[v5] launch: gridDim=4  blockDim=256  total_threads=1024  warps=32  iters_per_warp=1
+
+--- CPU ---
+Name=Intel(R) Core(TM) Ultra 7 265K

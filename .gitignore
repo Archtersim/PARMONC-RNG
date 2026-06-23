@@ -1,0 +1,26 @@
+# build artifacts
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.dll
+*.so
+*.a
+
+# generated data
+_bin/
+_dump/
+render_*/
+*.pdf
+*.png
+*.zip
+
+# local editor / office temp
+~$*.docx
+.lo_profile*
+
+# logs that may be regenerated locally
+*.tmp
